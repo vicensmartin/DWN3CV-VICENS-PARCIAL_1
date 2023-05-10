@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+pre{
+    border:thin solid gainsboro;
+    border-radius: 1em;
+    background-color: ghostwhite;
+    margin: 1em;
+    padding: 1em;
+    color: rgb(44, 44, 44);
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+body{
+    font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+}
+
+.titulo-home-principal{
+    font-family: 'Outfit', sans-serif;
+    margin-top: 60px;
+}
+
+.titulo-home{
+    font-family: 'Outfit', sans-serif;
+    margin-top: 20px;
+}
+
+.imagenes_juntas{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.nav-link:hover {
+    color: gray;
+  }
+
+
+.home_pag{
+    background-image: url("../images/home/foto_home.jpg");
+    height: 500px;
+}
+
+.encabezado{
+    background-color: #0d0200;
+}
+
+
+.fondo_quienes_somos{
+    background-image: url("../images/nosotros/foto_vieja_principal.jpg");
+    height: 400px;
+}
+
+.img_quienes_somos{
+    display: flex;
+    justify-content:center;
+}
+
+.pie_foto{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 15px;
+}
+
+.cajas_quiens{
+    background-color: rgb(44, 44, 44);
+    color: aliceblue;
+    
+}
+
+.desplegable_uva{
+    display: flex;
+    justify-content:center;
+    padding-left: 40%;
+    padding-right: 40%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.bloque_quienes_somos{
+    background-color: rgb(238, 237, 237);
+}
+
+.lista_redes{
+    list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.caja_quienes_somos{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.id_contenedor_quienes_somos{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+}
+
+@media screen and (max-width:480px) and (min-width:1px){
+    .caja_quienes_somos{
+        width: 90%;
+    }
+    
+    .fondo_quienes_somos{
+        background-image: url("../images/nosotros/foto_vieja_principal_movil-01.jpg");
+    }
+
+    .home_pag{
+        background-image: url("../images/home/foto_home_movil-01.jpg");
+    }
+    
+}
+
+/* movil 480x700 */
